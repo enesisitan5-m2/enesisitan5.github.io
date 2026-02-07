@@ -118,5 +118,10 @@ input:focus,select:focus,textarea:focus{border-color:rgba(94,234,212,.5)}
   border-color:var(--accent);
   box-shadow:0 6px 20px rgba(0,0,0,.2);
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
 
 
