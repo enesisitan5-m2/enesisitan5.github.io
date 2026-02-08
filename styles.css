@@ -255,6 +255,39 @@ html {
 html, body {
   overflow-x: hidden;
 }
+/* ===== MOBİL DÜZEN ===== */
+@media (max-width: 768px) {
+
+  /* WhatsApp - Eposta alt alta gelsin */
+  .contact-row {
+    flex-direction: column;
+  }
+
+  .contact-row > div {
+    width: 100%;
+  }
+
+  /* Form ve kartlar tam genişlik */
+  .contact-form,
+  .contact-card {
+    width: 100%;
+  }
+
+  /* Buton taşmasın */
+  button {
+    width: 100%;
+  }
+
+  /* Genel taşma koruması */
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+}
+
 
 
 
