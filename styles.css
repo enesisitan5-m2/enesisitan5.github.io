@@ -239,6 +239,13 @@ html {
   flex-direction: column;
   justify-content: center;
 }
+.step {
+  background: rgba(255,255,255,0.03);
+  border-radius: 14px;
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
 
 
 
